@@ -9,15 +9,15 @@ CocoaNav is mostly written in RubyCocoa, with two ObjectiveC classes : CNItem an
  * FrameworkColor : CoreData class for managing text and background colors of frameworks
 
 === Windows ===
-* CNWindow is the main window : handles coordination between the 3 views : FrameworkView, CrumbView, ItemTableView
-* CNAboutWindow : the about window showing a WebView, backed by a Core Animation Quartz Composition
-* CNPreferencesWindow : handles FrameworkColors editing
+ * CNWindow is the main window : handles coordination between the 3 views : FrameworkView, CrumbView, ItemTableView
+ * CNAboutWindow : the about window showing a WebView, backed by a Core Animation Quartz Composition
+ * CNPreferencesWindow : handles FrameworkColors editing
 
 === Views ===
-* FrameworkViewBackground : draws a radial gradient as a background. This class exists because I couldn't figure out how to draw the gradient with RubyCocoa
-* FrameworkView : the meat of what you'll see. For each Objective C class, creates a matching layer. Two view modes : framework (classes inside their frameworks) or ClassTree (classes linked to their parents)
-* CrumbView : for each class, draws inheritance crumb. For NSButton, draws NSObject > NSResponder > NSControl > NSButton. 
-* ItemTableView : displays every framework/class/method/protocol/category loaded and search them
+ * FrameworkViewBackground : draws a radial gradient as a background. This class exists because I couldn't figure out how to draw the gradient with RubyCocoa
+ * FrameworkView : the meat of what you'll see. For each Objective C class, creates a matching layer. Two view modes : framework (classes inside their frameworks) or ClassTree (classes linked to their parents)
+ * CrumbView : for each class, draws inheritance crumb. For NSButton, draws NSObject > NSResponder > NSControl > NSButton. 
+ * ItemTableView : displays every framework/class/method/protocol/category loaded and search them
 
 = TODO =
 
