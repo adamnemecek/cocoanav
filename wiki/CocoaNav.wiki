@@ -19,6 +19,7 @@ CocoaNav is mostly written in RubyCocoa, with two ObjectiveC classes : CNItem an
  * CrumbView : for each class, draws inheritance crumb. For NSButton, draws NSObject > NSResponder > NSControl > NSButton. 
  * ItemTableView : displays every framework/class/method/protocol/category loaded and search them
 
+
 = TODO =
  * better parsing, to handle C methods and structs. Maybe via Pygments. (Then we'll be able to index stuff like CATransform3DMakeScale)
  * when parsing user frameworks,  parse .m files
@@ -29,3 +30,4 @@ CocoaNav is mostly written in RubyCocoa, with two ObjectiveC classes : CNItem an
  * parameter use : for each method or function, index its parameters -> see what's being called by whom
  * stuff like Demeter's Law : trail an object to see how deeply it's used
  * real bindings between views : right now it sucks. 
+ * save document window positions AND contents. via Core Data ? On relaunch, you get exactly what you quit from.
