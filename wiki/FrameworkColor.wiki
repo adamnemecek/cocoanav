@@ -1,0 +1,8 @@
+FrameworkColor stores text and background colors of frameworks. It is a CoreData class.
+
+It has 4 fields :
+ * name : regex used to match a target framework name
+ * enabled : bool
+ * color : background color, can be transparent
+ * textColor : can be transparent
+
