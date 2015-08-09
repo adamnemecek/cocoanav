@@ -1,0 +1,1 @@
+The Cocoa class to display web pages. In CocoaNav, it's used to display class help.

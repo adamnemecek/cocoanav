@@ -1,0 +1,6 @@
+CrumbView displays ancestors of a class.
+
+Displaying NSButton :
+NSObject > NSResponder > NSView > NSControl > NSButton
+
+Clicking on a class name opens an NSMenu with its siblings. Clicking on the arrow on the right of a class name opens its children.

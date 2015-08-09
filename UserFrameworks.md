@@ -1,0 +1,1 @@
+Drag one of your frameworks or projects on CocoaNav and it will parse it. You can then search it and see it in the ClassTree.

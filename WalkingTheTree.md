@@ -1,0 +1,1 @@
+WalkingTheTree is walking the ClassTree. ApplicationController has method like firstChild, nextSibling. If you've ever used the Javascript DOM, you'll be familiar with them.

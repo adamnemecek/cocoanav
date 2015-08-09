@@ -1,0 +1,1 @@
+FrameworkView, CrumbView, ItemTableView share their selection. Once you select a class in any of these views, it will be reflected in the other two. This is done at the [CNWindow](CNWindow.md) level, by KeyValueObserving. This should be done with bindings, but I had trouble to make it work in RubyCocoa.
